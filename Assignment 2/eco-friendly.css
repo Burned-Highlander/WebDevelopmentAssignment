@@ -1,0 +1,305 @@
+a {
+    margin:5px;
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    margin: 0px;
+    background-color: rgb(194, 194, 207);
+    overflow-x: hidden;
+}
+header {
+    display: inline-flex;
+    position:fixed;
+    width: 100vw;
+    top: 0px;
+    left:0px;
+    box-sizing: border-box;
+    background-color: rgb(64, 224, 160);
+    height: 150px;
+    z-index:1 ; /* Giving more preference to header to be displayed at all times while scrolling*/
+}
+
+.company-image {
+    position:absolute;
+    left:0px;
+    top:0px;
+    padding: 0px 20px 0px 20px;
+    height:150px;
+    background-color: rgb(64, 224, 160);
+}
+
+.Heading {
+    
+    position: relative;
+    left: 25%;
+    top: 10%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Navigation-menu {
+    position:absolute;
+    right:0px;
+    
+    padding: 60px 20px 60px 20px;
+    background-color: rgb(64, 224, 160);
+}
+
+.hero-section {
+    display:flex;
+    background-image: url(hero-background2.png);
+    position:relative;
+    top: 148px;
+    left: 0px;
+    width:100vw;
+    height:500px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    z-index: 0;
+}
+
+#headline {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    left: 450px;
+    top: 100px;
+}
+
+.call-action {
+    position: relative;
+    width: 60%;
+    height: 10%;
+    top: 200px;
+    left: 230px;
+    text-align: center;
+    font-size: 15px;
+    border: 3px solid;
+    border-color: rgb(20, 139, 194);
+}
+
+#Products-section {
+    display:flex;
+    position:relative;
+    top: 548px;
+
+}
+
+#Product-head {
+    position: relative;
+    left: 550px;
+    top: -380px;
+    
+}
+
+.products-gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    left: -75px;
+    gap:20px;
+    position: relative;
+    top:-250px;
+}
+
+
+#product img {
+    object-fit:contain;
+    width:100%;
+    height:300px;
+}
+
+#product {
+    padding: 40px;
+    border: 5px solid;
+    align-content: center;
+    background-color: rgb(35, 191, 95);
+    width: 400px;
+    border-radius: 10%;
+    
+}
+
+#product button {
+    margin-top: 10px;
+    background-color: rgb(115, 210, 151);
+    height: 50px;
+    position:relative;
+    left:150px;
+}
+
+#product h3 {
+    background-color: bisque;
+    position: relative;
+    width:70%;
+    height:65px;
+    text-align: center;
+    left: 55px;
+    border: 3px solid;
+    border-color:rgb(70, 10, 126)
+}
+
+#About-Us {
+    display:flex;
+    position:relative;
+    top: 300px;
+    background-color: rgb(6, 158, 77);
+    margin: 0 auto;
+    height: 500px;
+}
+
+#about-headline {
+    position: absolute;
+    text-align: justify;
+    top: 50px;
+    left: 550px;
+}
+
+#Mission {
+    position: absolute;
+    margin: 10em;
+    text-align: center;
+}
+
+#Mission-2 {
+    position: absolute;
+    margin: 10em;
+    text-align: center;
+    top: 150px;
+}
+
+#Best-selling {
+    position: relative;
+    margin: 2em;
+    text-align: center;
+    width: 300px;
+    left: 400px;
+    top: 300px;
+}
+
+.Best-Products-gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    left: -40px;
+    gap:20px;
+    position: relative;
+    top:300px;
+    
+}
+
+.Learn {
+    position: relative;
+    width:90px;
+    height: 40px;
+    top: 350px;
+    text-align: center;
+    left: 540px;
+    font-size: medium;
+    border: 2px solid;
+    border-color: blueviolet;
+}
+
+footer {
+    display:flex;
+    position: relative;
+    top: 400px;
+    background-color: #23bf5f;
+    height: 50vh;
+}
+
+.footer-heading {
+    padding: 30px 20px 30px 20px;
+    position: absolute;
+    top: 200px;
+}
+
+.Social-Media {
+    display: flex;
+    position: absolute;
+}
+
+.instagram {
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 970px;
+    top: 80px;
+}
+
+.facebook {
+    
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1070px;
+    top: 105px;
+    
+}
+
+.twitter {
+    
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 1130px;
+    top: 95px;
+}
+
+.Social-heading {
+    position:absolute;
+    left: 1010px;
+    width: 300px;
+    top: 20px;
+}
+
+.Contact-details {
+    position:relative;
+    display:flex;
+    top: -90px;
+}
+
+.Contact-heading {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    left: 20px;
+}
+
+.Phone-no {
+    position: absolute;
+    top: 150px;
+    width: 250px;
+    left: 20px;
+}
+
+.Email{
+    position: absolute;
+    top: 170px;
+    width: 300px;
+    left: 20px;
+}
+
+.pin-loc {
+    width:50px;
+    height:50px;
+    position: absolute;
+    top: 210px;
+    left: 450px;
+    margin-right: 30px;
+}
+
+.Address {
+    position: absolute;
+    top: 210px;
+    width: 500px;
+    left: 20px;
+}
